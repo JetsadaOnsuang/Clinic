@@ -5,7 +5,7 @@
 ## เริ่มต้นใช้งานด้วย XAMPP
 
 1. เปิด Apache และ MySQL ใน XAMPP
-2. เปิด phpMyAdmin ที่ `http://localhost/phpmyadmin` แล้วสร้างฐานข้อมูลชื่อ `clinic_db` โดยเลือก Collation `utf8mb4_unicode_ci`
+2. เปิด phpMyAdmin ที่ `http://localhost/phpmyadmin` แล้วสร้างฐานข้อมูลชื่อ `clinic_db` โดยเลือก Collation `utf8mb4_unicode_ci` หรือ import ไฟล์ sql
 3. ตรวจสอบค่าเชื่อมต่อในไฟล์ `.env` ให้ตรงกับ MySQL ในเครื่อง:
 
    ```dotenv
